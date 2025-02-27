@@ -1,0 +1,150 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: auto;
+    height: 100%;
+    padding: 0px;
+    font-family: 'Montserrat-M';
+    position: relative;
+    background-image: url(foto/cover.svg);
+    background-size: 145%;
+    background-repeat: no-repeat;
+    background-position-x: -80px;
+    background-position-y: top;
+}
+
+.text1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 550px;
+}
+
+.text2 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#play {
+    font-family: 'Higuen';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b3a3a;
+    border-radius: 10px;
+    margin-top: -35px;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding: 9px 50px 9px 59px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    border-color: #ffffff;
+    border: 1.5px solid;
+	animation:brath 8s  linear infinite;
+}
+
+a.tbl-biru {
+    font-family: 'Montserrat-R';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 9px 10px 9px 10px;
+    color: #2D2D2D;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.bukaundangan {margin-left: 5px;}
+
+a.tbl-biru:hover {
+    background: white;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+
+.font1 {
+    font-size: 12px;
+    font-family: "Montserrat-M";
+    letter-spacing: 3px;
+}
+
+.font2 {
+    font-family: "Alison";
+    font-size: 60px;
+    margin-top: 6px;
+    margin-bottom: 19px;
+}
+
+.font3 {
+    font-family: "Montserrat-R";
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.font4 {
+    font-size: 13px;
+    font-family: "Montserrat-M";
+}
+
+@keyframes brath{
+    0%{transform: scale(.9);}
+    25%{transform: scale(1);}
+    60%{transform: scale(.9);}
+    100%{transform: scale(1);}
+}
+
+@font-face {
+    font-family: Higuen;
+    src: url(asset/Higuen.otf);
+}
+
+@font-face {
+    font-family: Montserrat-M;
+    src: url(asset/Montserrat-M.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-B;
+    src: url(asset/Montserrat-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins-R;
+    src: url(asset/Poppins-R.otf);
+}
+
+@font-face {
+    font-family: Montserrat-R;
+    src: url(asset/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Alison;
+    src: url(asset/Alison.otf);
+}
+
+@font-face {
+    font-family: Times-B;
+    src: url(asset/Times-B.ttf);
+}
