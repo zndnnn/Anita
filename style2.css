@@ -25,6 +25,10 @@ body {
     background-position-y: top;
 }
 
+.sec1 {
+    position: relative;
+}
+
 .text1 {
     color: whitesmoke;
     text-align: center;
