@@ -25,14 +25,11 @@ body {
     background-position-y: top;
 }
 
-.sec1 {
-    position: relative;
-}
 
 .text1 {
     color: whitesmoke;
     text-align: center;
-    margin-top: 550px;
+    margin-top: 450px;
 }
 
 .text2 {
