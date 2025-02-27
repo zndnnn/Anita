@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Reza & Anita</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/01fddf6368.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"></script>
+  <audio controls autoplay id="song" src="asset/cincin.mp3"></audio>
+  <script>
+    window.addEventListener('click',() => {
+      document.getElementById("song").play();
+    });
+  </script>
+
+  <section>
+    <div class="text1">
+        <p class="font1">Save The Date</p>
+        <p class="font2">Reza & Anita</p>
+        <p class="font1">Minggu, 25 Mei 2025</p>
+        <div class="text6">
+          <p id="demo" class="waktu"></p><p id="demo1" class="waktu"></p><p id="demo2" class="waktu"></p><p id="demo3" class="waktu"></p>
+          <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("May 25, 2025 09:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + " " ;
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Terimakasih Sudah Datang";
+              }
+            }, 1000);
+            </script>
+            <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("May 25, 2025 09:00:00").getTime();
+              
+              // Update the count down every 1 second
+              var x = setInterval(function() {
+              
+                // Get today's date and time
+                var now = new Date().getTime();
+                  
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+                  
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  
+                // Output the result in an element with id="demo"
+                document.getElementById("demo1").innerHTML = hours + " " ;
+                  
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("demo1").innerHTML = "Terimakasih Sudah Datang";
+                }
+              }, 1000);
+              </script>
+              <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("May 25, 2025 09:00:00").getTime();
+                
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+                
+                  // Get today's date and time
+                  var now = new Date().getTime();
+                    
+                  // Find the distance between now and the count down date
+                  var distance = countDownDate - now;
+                    
+                  // Time calculations for days, hours, minutes and seconds
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                  // Output the result in an element with id="demo"
+                  document.getElementById("demo2").innerHTML = minutes + " " ;
+                    
+                  // If the count down is over, write some text 
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo2").innerHTML = "Terimakasih Sudah Datang";
+                  }
+                }, 1000);
+                </script>
+                <script>
+                  // Set the date we're counting down to
+                  var countDownDate = new Date("May 25, 2025 09:00:00").getTime();
+                  
+                  // Update the count down every 1 second
+                  var x = setInterval(function() {
+                  
+                    // Get today's date and time
+                    var now = new Date().getTime();
+                      
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+                      
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                      
+                    // Output the result in an element with id="demo"
+                    document.getElementById("demo3").innerHTML = seconds + " " ;
+                      
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                      clearInterval(x);
+                      document.getElementById("demo3").innerHTML = "Terimakasih Sudah Datang";
+                    }
+                  }, 1000);
+                  </script>
+        </div>
+        <div class="hari"><p class="harii">Hari</p><p class="harii">Jam</p><p class="harii">Menit</p><p class="harii">Detik</p></div>
+
+        <i class="fa-solid fa-compact-disc fa-spin" style="font-size:36px;" id="vinyl"></i>
+        <p id="font" class="font7">Click to Play Music</p>
+    </div>
+
+    <div class="lead">
+        <div class="lead-slide">
+          <img src="1x/1.jpg" />
+          <img src="1x/2.jpg" />
+          <img src="1x/3.jpg" />
+          <img src="1x/4.jpg" />
+          <img src="1x/5.jpg" />
+          <img src="1x/6.jpg" />
+          <img src="1x/7.2.jpg" />
+          <img src="1x/8.jpg" />
+        </div>
+    </div>
+    <div class="text3">
+    </div>
+  </section>
+
+  <img class="bunga3" src="asset/bunga3.png">
+  <section class="orang">
+    <div class="text4">
+      <p class="font6">Our</p>
+      <p class="font5">Wedding</p>
+      <div class="cewe">
+      <img src="300ppi/Velin.png" alt="cewe">
+      <a href="https://www.instagram.com/novelindniellaa/?utm_source=ig_web_button_share_sheet" target="_blank" class="tbl-biru">@novelindniellaa</a>
+    </div>
+      
+      <img src="300ppi/Rais.png" alt="cowo">
+      <a href="https://www.instagram.com/raisman10/?utm_source=ig_web_button_share_sheet" target="_blank" class="tbl-biru-2">@raisman10</a>
+    </div>
+  </section>
+
+  <section>
+    <img class="bunga1" src="asset/bunga4.png">
+    <img class="bunga2" src="asset/bunga2.png">
+    <div class="text5">
+      <p class="font5-1">WEDDING</p>
+      <p class="font2-1">Event</p>
+      <img src="300ppi/Resepsi.png" alt="resepsi">
+      <a href="https://maps.app.goo.gl/Vse74mgDUq3P3H1B8" target="_blank" class="tbl-biru-2">Maps</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="text7">
+      <p class="font5-1">MOMENT</p>
+      <p class="font2-1">Gallery</p>
+      <img src="300ppi/6.jpg" alt="resepsi">
+      <img class="foto" src="300ppi/4.jpg" alt="resepsi">
+      <img class="foto" src="300ppi/5.jpg" alt="resepsi">
+      <img class="foto" src="300ppi/8.jpg" alt="resepsi">
+      <img src="300ppi/7.jpg" alt="resepsi">
+    </div>
+  </section>
+
+  <section>
+    <div class="text8">
+      <p class="font5-1">WEDDING</p>
+      <p class="font2-1">Gift</p>
+      <p class="font1-1">Doa restu anda merupakan karunia yang snagat berarti bagi kami, dan jika memberi adalah ungkapan tanda kasih anda, anda dapat memberi kado secara cashless. </p>
+      <p class="font1-2">KLIK WEDDING GIFT</p>
+    <button class="button" onclick="myFunction()">Wedding Gift</button>
+    
+    <div id="myDIV">
+      <img src="asset/SVG/rekening.svg" alt="rekening">
+      <p id="p1">0272819139</p>
+      <button class="button" onclick="copyToClipboard('#p1')">Salin Rekening</button>
+      <script>
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+      </script>
+    </div>
+    <p class="font1-2">KONFIRMASI WEDDING GIFT</p>
+    <a href="https://calendar.app.google/sxvk2erKnBRm6zwd6" target="_blank" class="tbl-biru-5">Konfirmasi Via WA</a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+  </section>
+
+  <section>
+    <div class="text9">
+    
+    </div>
+  </section>
+
+  <section>
+    <div class="text10">
+        <p class="font1">The Wedding of Rais & Velin</p>
+        <p class="font2">Rais & Velin</p>
+        <p class="font1">Minggu, 04 Agustus 2024</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="text11">
+      <div id="copyright">
+        <p class="font1">- Rais & Velin -</p>
+        </div>
+        <div id="copyright1">
+          <img class="logo-aksana" src="asset/aksana.png">
+          </div>
+          <p class="font1-2">Undangan Website By Aksana Invitation (2024) Follow Instagram : 
+            @aksanainvitation|@aksanapicture - Whatsapp : 081253270758 </p>
+      </div>
+    
+    </div>
+  </section>
+
+  <section>
+    <div class="text12">
+    
+    </div>
+  </section>
+
+        <script>
+          var copy = document.querySelector(".logos-slide").cloneNode(true);
+          document.querySelector(".logos").appendChild(copy);
+          var copy = document.querySelector(".lead-slide").cloneNode(true);
+          document.querySelector(".lead").appendChild(copy);
+        </script>
+</body>
+</html>
