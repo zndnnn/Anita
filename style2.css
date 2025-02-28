@@ -65,13 +65,13 @@ a.tbl-biru {
     align-items: center;
     background: #f3f3f3;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding: 9px 10px 9px 10px;
     color: #2D2D2D;
     cursor: pointer;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .bukaundangan {margin-left: 5px;}
