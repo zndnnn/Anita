@@ -601,12 +601,18 @@ a.tbl-biru-5:hover {
 }
 
 .vid {
+    padding-top: 60px;
     align-items: center;
     width: 90%;
 }
 
 .foto {
-    size: 20%;
+    display: inline-flex;
+    width: 90%;
+}
+
+.foto img {
+    width: 50%;
 }
 
 
