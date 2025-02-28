@@ -466,7 +466,7 @@ a.tbl-biru-5:hover {
 
 .font11 {
     margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 215px;
     margin-bottom: 10px;
     font-size: 25px;
     font-family: "Mirage-R";
@@ -474,7 +474,7 @@ a.tbl-biru-5:hover {
 }
 
 .font12 {
-    margin-left: 250px;
+    margin-left: 240px;
     margin-bottom: 3px;
     font-size: 17px;
     font-family: "Montserrat-L";
@@ -482,7 +482,24 @@ a.tbl-biru-5:hover {
 }
 
 .font13 {
-    margin-left: 192px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Montserrat-B";
+    color: #3b3a3a;
+}
+
+.font14 {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: "Montserrat-B";
+    color: #3b3a3a;
+}
+
+.font15 {
+    margin-left: 200px;
     margin-bottom: 10px;
     font-size: 16px;
     font-family: "Montserrat-B";
