@@ -615,7 +615,7 @@ a.tbl-biru-5:hover {
         display: flexbox;
         width: 90%;
         margin-top: 0px;
-        border-top-left-radius: 100px;
+        border-top-left-radius: 120px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .text5 img{
@@ -623,7 +623,7 @@ a.tbl-biru-5:hover {
         display: flexbox;
         width: 90%;
         margin-top: 0px;
-        border-top-right-radius: 100px;
+        border-top-right-radius: 120px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
