@@ -492,8 +492,8 @@ a.tbl-biru-5:hover {
 }
 
 .font11 {
+    margin-right: 20px;
     margin-top: 20px;
-    margin-left: 165px;
     margin-bottom: 10px;
     font-size: 25px;
     font-family: "Mirage-R";
@@ -501,7 +501,7 @@ a.tbl-biru-5:hover {
 }
 
 .font12 {
-    margin-left: 190px;
+    margin-right: 20px;
     margin-bottom: 3px;
     font-size: 17px;
     font-family: "Montserrat-L";
@@ -509,7 +509,7 @@ a.tbl-biru-5:hover {
 }
 
 .font13 {
-    margin-left: 80px;
+    margin-right: 20px;
     margin-bottom: 10px;
     font-size: 14px;
     font-family: "Montserrat-B";
@@ -517,7 +517,7 @@ a.tbl-biru-5:hover {
 }
 
 .font14 {
-    margin-left: 122px;
+    margin-right: 20px;
     margin-bottom: 10px;
     margin-top: -10px;
     font-size: 14px;
@@ -526,7 +526,7 @@ a.tbl-biru-5:hover {
 }
 
 .font15 {
-    margin-left: 175px;
+    margin-right: 20px;
     margin-bottom: 10px;
     font-size: 14px;
     font-family: "Montserrat-B";
@@ -596,6 +596,10 @@ a.tbl-biru-5:hover {
     width: 70%;
 }
 
+.textcowo {
+    text-align: right;
+}
+
 .vid {
     align-items: center;
     width: 90%;
@@ -603,6 +607,26 @@ a.tbl-biru-5:hover {
 
 .foto {
     size: 20%;
+}
+
+
+@media screen and (max-width: 450px) {
+    .text13 img{
+        display: flexbox;
+        width: 90%;
+        margin-top: 0px;
+        border-top-left-radius: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .text5 img{
+
+        display: flexbox;
+        width: 90%;
+        margin-top: 0px;
+        border-top-right-radius: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
 }
 
 @keyframes appear {
