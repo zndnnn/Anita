@@ -174,6 +174,17 @@ a.tbl-biru-5:hover {
     padding-bottom: 100px;
 }
 
+.text5-1 {
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(11, 25, 44);
+    margin-top: -1px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    visibility: hidden;
+}
+
 .text6 {
     margin-top: 20px;
     display: flex;
@@ -337,7 +348,7 @@ a.tbl-biru-5:hover {
         justify-content: center;
         align-items: center;
         background: whitesmoke;
-        margin-top: -55px;
+        margin-top: -70px;
         margin-left: 65px;
         margin-right: 180px;
         padding: 10px 5px 10px 5px;
@@ -352,7 +363,7 @@ a.tbl-biru-5:hover {
     justify-content: center;
     align-items: center;
     background: whitesmoke;
-    margin-top: -55px;
+    margin-top: -70px;
     margin-left: 65px;
     margin-right: 180px;
     padding: 10px 5px 10px 5px;
@@ -446,6 +457,7 @@ a.tbl-biru-5:hover {
     font-size: 13px;
     font-family: "Montserrat-M";
 }
+
 
 .font5 {
     font-family: "Montserrat-L";
@@ -572,9 +584,53 @@ a.tbl-biru-5:hover {
 }
 
 .font17 {
+    visibility: hidden;
+}
+.font17-1 {
+    visibility: hidden;
+}
+.font17-2 {
+    visibility: hidden;
+}
+.font17-3{
+    visibility: hidden;
+}
+
+#awal {
     font-family: "Montserrat-L";
     font-size: 13px;
-    margin-top: 9px;
+    margin-top: 12px;
+    color: #3b3a3a;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#awal1 {
+    font-family: "Montserrat-L";
+    font-size: 13px;
+    margin-top: 12px;
+    color: #3b3a3a;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#awal2 {
+    font-family: "Montserrat-L";
+    font-size: 13px;
+    margin-top: 12px;
+    color: #3b3a3a;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#awal3 {
+    font-family: "Montserrat-L";
+    font-size: 13px;
+    margin-top: 12px;
     color: #3b3a3a;
     align-items: center;
     text-align: center;
@@ -604,11 +660,14 @@ a.tbl-biru-5:hover {
     padding-bottom: 20px;
     width: 100%;
     display: flex;
+    visibility:hidden;
+
 }
 
 .cewe img {
     box-shadow: 30px 30px 0px 0px #0058a6;
     width: 70%;
+
 }
 
 .cowo {
@@ -618,6 +677,7 @@ a.tbl-biru-5:hover {
     width: 100%;
     display: flex;
     justify-content: right;
+    visibility:hidden;
 }
 
 .cowo img {
@@ -649,7 +709,26 @@ a.tbl-biru-5:hover {
     margin-bottom: 50px;
 }
 
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
 
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 
 
 @media screen and (max-width: 450px) {
