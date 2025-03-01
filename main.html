@@ -244,16 +244,13 @@
 
   <section>
     <div class="text8">
-      <p class="font5-1">WEDDING</p>
+      <p class="font5-3">WEDDING</p>
       <p class="font2-1">Gift</p>
-      <p class="font1-1">Doa restu anda merupakan karunia yang snagat berarti bagi kami, dan jika memberi adalah ungkapan tanda kasih anda, anda dapat memberi kado secara cashless. </p>
-      <p class="font1-2">KLIK WEDDING GIFT</p>
-    <button class="button" onclick="myFunction()">Wedding Gift</button>
-    
-    <div id="myDIV">
-      <img src="asset/SVG/rekening.svg" alt="rekening">
-      <p id="p1">0272819139</p>
-      <button class="button" onclick="copyToClipboard('#p1')">Salin Rekening</button>
+      <p class="font1-1">Bagi Bapak/Ibu/Saudara/i yang ingin mengirimkan hadiah pernikahan dapat melalui virtual account di bawah ini:</p>
+      <div class="rek">
+      <img src="foto/rekanita.png" alt="rekening">
+      <p id="p1">1480012126515</p>
+      <a class="button" onclick="copyToClipboard('#p1')">Salin Rekening</a>
       <script>
       function copyToClipboard(element) {
         var $temp = $("<input>");
@@ -263,7 +260,20 @@
         $temp.remove();
       }
       </script>
-    </div>
+      <img src="foto/rekreza.png" alt="rekening2">
+      <p id="p2">1282069927</p>
+      <a class="button2" onclick="copyToClipboard('#p2')">Salin Rekening</a>
+      <script>
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+      </script>
+      </div>
+    
     <p class="font1-2">KONFIRMASI WEDDING GIFT</p>
     <a href="https://calendar.app.google/sxvk2erKnBRm6zwd6" target="_blank" class="tbl-biru-5">Konfirmasi Via WA</a>
   </div>
@@ -278,6 +288,14 @@
       }
     }
     </script>
+  </section>
+
+  <section>
+    <div class="text10">
+        <p class="font1-3">Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan doa restu kepada kami</p>
+        <p class="font1-4">Kami Yang Berbahagia,</p>
+        <p class="font2">Reza & Anita</p>
+    </div>
   </section>
 
 

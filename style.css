@@ -125,19 +125,12 @@ a.tbl-biru-5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
     margin-top: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
-    padding: 5px 15px 10px 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 9px 15px 10px 15px;
     color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.5s;
     background: #3b3a3a;
-    border-color: #ffffff;
-    border: 1.5px solid;
-	animation:brath 8s  linear infinite;
 }
 
 a.tbl-biru-5:hover {
@@ -203,10 +196,10 @@ a.tbl-biru-5:hover {
 }
 
 .text8 {
-    color: whitesmoke;
+    color: #3b3a3a;
     text-align: center;
     justify-content: center;
-    background-color: rgb(11, 25, 44);
+    background-color: whitesmoke;
     margin-top: -1px;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -227,7 +220,7 @@ a.tbl-biru-5:hover {
     text-align: center;
     justify-content: center;
     position: relative;
-    background-image: url(asset/1.1.jpg);
+    background-image: url(foto/cover.jpg);
     background-size: 170%;
     background-repeat: no-repeat;
     background-position-x: -130px;
@@ -311,6 +304,11 @@ a.tbl-biru-5:hover {
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.text8 img{
+    display: flexbox;
+    width: 90%;
+}
+
 .text10 img{
     display: flexbox;
     width: 100%;
@@ -333,41 +331,45 @@ a.tbl-biru-5:hover {
     margin-top: 50px;}
 
 .button {
-    background: #3b3a3a;
-    border-color: #ffffff;
-    border: 1.5px solid;
-	animation:brath 8s  linear infinite;
-    font-family: "Montserrat-M";
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    color: white;
-    border-radius: 10px;
+        font-size: 11px;
+        font-family: 'Montserrat-R';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: whitesmoke;
+        margin-top: -55px;
+        margin-left: 65px;
+        margin-right: 180px;
+        padding: 10px 5px 10px 5px;
+        color: #3b3a3a;
+        animation:brath 8s  linear infinite;
+}
+
+.button2 {
+    font-size: 11px;
+    font-family: 'Montserrat-R';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    margin-top: -55px;
+    margin-left: 65px;
+    margin-right: 180px;
+    padding: 10px 5px 10px 5px;
+    color: #3b3a3a;
+    animation:brath 8s  linear infinite;
 }
 
 #p1 {
     margin-top: -90px;
+    color: rgba(0, 0, 0, 0);
 }
 
-#myDIV {
-    width: 100%;
-    color: whitesmoke;
-    text-align: center;
-    justify-content: center;
-    background-color: rgb(11, 25, 44);
-    padding-bottom: 50px;
-  }
-
-#myDIV img {
-    width: 70%;
-    justify-content: center;
-    margin-top: 20px;
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px;
+#p2 {
+    margin-top: -90px;
+    color: rgba(0, 0, 0, 0);
 }
+
 
 .font1 {
     font-size: 12px;
@@ -388,8 +390,27 @@ a.tbl-biru-5:hover {
     font-size: 12px;
     font-family: "Montserrat-M";
     letter-spacing: 1px;
-    color: whitesmoke;
+    color: #3b3a3a;
 }
+
+.font1-3 {
+    font-size: 12px;
+    font-family: "Montserrat-M";
+    letter-spacing: 1px;
+    color: whitesmoke;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.font1-4 {
+    font-size: 11px;
+    font-family: "Montserrat-M";
+    letter-spacing: 2px;
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+
 
 .font2 {
     font-family: "Alison";
@@ -450,6 +471,14 @@ a.tbl-biru-5:hover {
     margin-top: -40px;
     margin-left: -140px;
     color: white;
+}
+
+.font5-3 {
+    font-family: "Times-R";
+    font-size: 35px;
+    margin-top: -40px;
+    margin-left: -40px;
+    color: #3b3a3a;
 }
 
 .font6 {
@@ -614,6 +643,13 @@ a.tbl-biru-5:hover {
 .foto img {
     width: 50%;
 }
+
+.rek {
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+
 
 
 @media screen and (max-width: 450px) {
