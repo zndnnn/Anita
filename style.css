@@ -348,7 +348,7 @@ a.tbl-biru-5:hover {
         justify-content: center;
         align-items: center;
         background: whitesmoke;
-        margin-top: -70px;
+        margin-top: -55px;
         margin-left: 65px;
         margin-right: 180px;
         padding: 10px 5px 10px 5px;
@@ -363,7 +363,7 @@ a.tbl-biru-5:hover {
     justify-content: center;
     align-items: center;
     background: whitesmoke;
-    margin-top: -70px;
+    margin-top: -55px;
     margin-left: 65px;
     margin-right: 180px;
     padding: 10px 5px 10px 5px;
@@ -731,7 +731,7 @@ a.tbl-biru-5:hover {
   }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 376px) {
     .text13 img{
         display: flexbox;
         width: 90%;
@@ -747,6 +747,36 @@ a.tbl-biru-5:hover {
         border-top-right-radius: 120px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    .button {
+        font-size: 11px;
+        font-family: 'Montserrat-R';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: whitesmoke;
+        margin-top: -65px;
+        margin-left: 65px;
+        margin-right: 180px;
+        padding: 10px 5px 10px 5px;
+        color: #3b3a3a;
+        animation:brath 8s  linear infinite;
+}
+
+.button2 {
+    font-size: 11px;
+    font-family: 'Montserrat-R';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    margin-top: -65px;
+    margin-left: 65px;
+    margin-right: 180px;
+    padding: 10px 5px 10px 5px;
+    color: #3b3a3a;
+    animation:brath 8s  linear infinite;
+}
     
 }
 
