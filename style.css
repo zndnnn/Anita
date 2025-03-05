@@ -660,7 +660,6 @@ a.tbl-biru-5:hover {
     padding-bottom: 20px;
     width: 100%;
     display: flex;
-    visibility:hidden;
 
 }
 
@@ -677,7 +676,6 @@ a.tbl-biru-5:hover {
     width: 100%;
     display: flex;
     justify-content: right;
-    visibility:hidden;
 }
 
 .cowo img {
