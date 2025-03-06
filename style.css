@@ -707,16 +707,6 @@ a.tbl-biru-5:hover {
     margin-bottom: 50px;
 }
 
-.slideUp {
-    animation-name: slideUp;
-    animation-name: slideUp;
-    animation-duration: 1s;
-    animation-duration: 1s;
-    visibility: visible;
-  }
-  
-
-
   @keyframes slideUp {
     0% {
       opacity: 0;
