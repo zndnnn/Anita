@@ -44,6 +44,12 @@ body {
     margin-top: 1px
 }
 
+.orang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #vinyl {
     margin-top: 20px;
@@ -269,18 +275,13 @@ a.tbl-biru-5:hover {
 }
 
 .text14 {
-    padding-top: 140 px;
+    display: flexbox;
     color: black;
     text-align: center;
     justify-content: center;
     background-color: whitesmoke;
 }
 
-.orang {
-    width: 100%;
-    background-color: whitesmoke;
-    padding-bottom: 70px;
-}
 
 .thebride {
     padding-top: 150px;    
@@ -707,17 +708,17 @@ a.tbl-biru-5:hover {
     margin-bottom: 50px;
 }
 
-  @keyframes slideUp {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
+.semuakomen {
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
+}
 
+.form {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (min-width: 376px) {
     .text13 img{

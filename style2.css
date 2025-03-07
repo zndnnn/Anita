@@ -25,6 +25,11 @@ body {
     background-position-y: top;
 }
 
+.orang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .text1 {
     color: whitesmoke;
