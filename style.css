@@ -45,7 +45,7 @@ body {
 }
 
 .orang {
-    display: flex;
+    background-color: whitesmoke;
     justify-content: center;
     align-items: center;
 }
@@ -708,17 +708,6 @@ a.tbl-biru-5:hover {
     margin-bottom: 50px;
 }
 
-.semuakomen {
-    margin: 20px;
-    justify-content: left;
-    text-align: left;
-}
-
-.form {
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-}
 
 @media screen and (min-width: 376px) {
     .text13 img{
